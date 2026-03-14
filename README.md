@@ -119,6 +119,12 @@ $big-project-orchestrator
 Initialize the orchestrator workspace, create a milestone-based plan, implement only the active milestone, run verification, and update the durable project memory files before stopping.
 ```
 
+## Examples
+
+- [Build from a large spec](./examples/from-spec.md)
+- [Add a large feature to an existing repo](./examples/existing-repo-feature.md)
+- [Run a validation-only pass](./examples/validation-pass.md)
+
 ## Autonomous mode
 
 For a large spec where you want minimal pauses between milestones:
