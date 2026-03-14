@@ -121,9 +121,19 @@ Initialize the orchestrator workspace, create a milestone-based plan, implement 
 
 ## Examples
 
-- [Build from a large spec](./examples/from-spec.md)
-- [Add a large feature to an existing repo](./examples/existing-repo-feature.md)
-- [Run a validation-only pass](./examples/validation-pass.md)
+Basic examples:
+
+- [Build from a large spec](./examples/basic/from-spec.md)
+- [Add a large feature to an existing repo](./examples/basic/existing-repo-feature.md)
+- [Run a validation-only pass](./examples/basic/validation-pass.md)
+
+Advanced examples:
+
+- [Multi-track and worktree execution](./examples/advanced/multi-track-worktrees.md)
+- [Report-first automations](./examples/advanced/automations.md)
+- [Escalation and recovery flows](./examples/advanced/escalation-recovery.md)
+- [Release hardening](./examples/advanced/release-hardening.md)
+- [Phase 1.5 / 2 planning](./examples/advanced/phase-2-planning.md)
 
 ## Autonomous mode
 
