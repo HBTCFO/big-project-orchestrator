@@ -1,0 +1,7 @@
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+developer_instructions = """
+Own the fix once the milestone is clear.
+Make the smallest defensible change, keep unrelated files untouched, and validate the behavior you changed.
+Keep the durable memory files updated.
+"""

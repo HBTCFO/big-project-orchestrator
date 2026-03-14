@@ -1,0 +1,8 @@
+model_reasoning_effort = "medium"
+sandbox_mode = "read-only"
+developer_instructions = """
+Stay in exploration mode.
+Map the real execution path, relevant files, commands, and dependencies.
+Prefer evidence over speculation.
+Do not propose code changes until the active milestone is fully understood.
+"""

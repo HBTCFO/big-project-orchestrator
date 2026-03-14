@@ -1,0 +1,31 @@
+# Repo-local Codex configuration for big-project-orchestrator.
+# Safe defaults for local development.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+# Optional CLI-only feature.
+# Uncomment if you also use Codex CLI experimental multi-agent:
+#
+# [features]
+# multi_agent = true
+# suppress_unstable_features_warning = true
+
+[agents]
+max_threads = 6
+max_depth = 1
+
+[agents.explorer]
+description = "Read-only codebase explorer for mapping affected files, execution paths, and architecture before implementation."
+config_file = "agents/explorer.toml"
+
+[agents.reviewer]
+description = "Read-only reviewer focused on correctness, regressions, security, and missing tests."
+config_file = "agents/reviewer.toml"
+
+[agents.worker]
+description = "Implementation-focused agent for small, targeted changes after the task is well understood."
+config_file = "agents/worker.toml"
+
+[agents.monitor]
+description = "Monitoring agent for long-running commands, polling, and verification progress."
+config_file = "agents/monitor.toml"

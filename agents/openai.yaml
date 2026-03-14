@@ -1,0 +1,11 @@
+interface:
+  display_name: "Big Project Orchestrator"
+  short_description: "Spec-driven local orchestration for larger Codex projects with milestones, validation, status files, and worktree-friendly workflows."
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#0F766E"
+  default_prompt: "Use $big-project-orchestrator to plan, implement, validate, and archive this task one milestone at a time."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools: []

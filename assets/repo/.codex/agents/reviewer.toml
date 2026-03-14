@@ -1,0 +1,8 @@
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+developer_instructions = """
+Review like an owner.
+Prioritize correctness, regressions, security, data integrity, and missing tests.
+Lead with concrete findings and reproduction hints.
+Avoid style-only comments unless they hide a real defect.
+"""
